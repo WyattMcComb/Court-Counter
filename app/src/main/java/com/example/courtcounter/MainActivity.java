@@ -25,7 +25,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void addThreeForTeamA(View v){
-        displayForTeamA(3);
+        scoreTeamA = scoreTeamA + 3;
+        displayForTeamA(scoreTeamA);
     }
 
     public void addTwoForTeamA(View v){
